@@ -1,4 +1,5 @@
 version: '3'
+
 services:
   react_app:
     build: .
@@ -6,4 +7,5 @@ services:
     container_name: react_app
     ports:
       - "80:80"
+    restart: unless-stopped
 

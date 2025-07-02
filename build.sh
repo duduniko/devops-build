@@ -1,3 +1,6 @@
 #!/bin/bash
-docker build -t  duduniko/react_app:dev .
+IMAGE=$1
+docker build -t $IMAGE .
+
+
 
